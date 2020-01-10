@@ -25,7 +25,7 @@ class sstream{
 
          list.stream().map(x->x*x).forEach(y->System.out.println(y));
          int reduc = list.stream().reduce(0,(ans,i)->ans+i);       
-         System.out.println(reduc);       
+         System.out.println(reduc);
 
 
          List<Integer> list1 = Arrays.asList(1,6,3,2,5,21,2,3,5,48,56,24,238,35,6,124,35,124,4,12,121,6);
@@ -50,6 +50,9 @@ class sstream{
 
          Integer var = list.stream().max(Integer::compare).get();
          System.out.println(var);
+
+
+         System.out.println("hello");
 
 
 
